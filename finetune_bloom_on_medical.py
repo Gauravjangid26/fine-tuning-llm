@@ -13,7 +13,7 @@ Original file is located at
 ## Use 4-bit quantization to manage GPU memory:
 
 from huggingface_hub import login
-login(token="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")
+login(token="hf_aTrRJQtDhoeVcUhvVjHpdUkqQsZLsUqJ")
 
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 import torch
